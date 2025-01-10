@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family : 'roboto', sans-serif;
+    margin: 0;
+    background-color: #1f2833;
+}
+
+header{
+    border-bottom: 1px solid c5c5c5;
+    box-shadow :0 3px 5px rgb(117, 115, 115);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    align-items: center;
+    padding: 30px 0;
+    width: 100%;
+
+}
+.navbar nav{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 20px;
+
+}
+.navbar nav :hover{
+    color: rgb(255, 255, 255);
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #66FCF1
+}
+
+.navbar nav a{
+    text-decoration: none;
+}
+
+header .home-button {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: white;
+
+}
+
+.welcome{
+    color:white;
+    font-family: "Kaushan Script", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    box-shadow: 5px 5px 5px #9fece7;
+    padding: 10px;
+
+}
+
+.textoinicial {
+    font-size: 18px;
+    max-width: 500px;
+
+    padding: 0 20px;
+    color: white;
+} 
+
