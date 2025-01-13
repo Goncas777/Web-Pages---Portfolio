@@ -3,13 +3,20 @@
 body{
     font-family : 'roboto', sans-serif;
     margin: 0;
-    background-color: #1f2833;
+    background-color: #2b3b4e;
 }
 
-header{
-    border-bottom: 1px solid c5c5c5;
-    box-shadow :0 3px 5px rgb(117, 115, 115);
-}
+header {
+    background-color: rgb(230, 157, 121);
+    border-bottom: 1px solid;
+    width: 80%;
+    margin: 0px auto 0; /* Centraliza o header e ajusta a margem superior */
+    z-index: 0;
+    border-radius: 15px;
+
+  }
+  
+  
 
 .navbar {
     display: flex;
@@ -33,7 +40,7 @@ header{
 
 .navbar a{
     text-decoration: none;
-    color: #66FCF1
+    color: #774002
 }
 
 .navbar nav a{
@@ -67,8 +74,15 @@ header .home-button {
 .textoinicial {
     font-size: 18px;
     max-width: 500px;
-
     padding: 0 20px;
     color: white;
-} 
+}
 
+#imageminicial {
+    height: 400px;
+}
+
+.box{
+    display: flex;
+    justify-content:space-around    
+}
