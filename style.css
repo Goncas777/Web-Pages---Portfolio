@@ -6,7 +6,6 @@ body {
     height: 100%;
     margin: 0;
     width: 100%;
-
 }
 
 header {
@@ -14,6 +13,9 @@ header {
     z-index: 1;
 }
 
+main {
+    min-height: calc(100vh - 108px);
+}
 
 
 .navbar {
@@ -190,7 +192,6 @@ header {
 
 .tabelainicial {
 
-    list-style-type: disc;
     margin: 20px;
     padding-left: 40px;
     font-size: 18px;
@@ -203,13 +204,11 @@ header {
 }
 
 footer {
-    position: absolute;
-    bottom: 0px;
+    position: relative;
+    bottom: 0;
     width: 100%;
     text-align: center;
     padding: 20px 0;
-    margin: 0px auto 0;
-
 }
 
 .footer-container {
@@ -253,4 +252,22 @@ footer p {
 .icon {
     width: 42px;
     height: 42px;
+}
+
+.contacto {
+    margin-top: 80px;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.containersobre {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.containersobre>div {
+    width: 60%;
+    justify-content: center;
 }

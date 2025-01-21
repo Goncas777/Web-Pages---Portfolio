@@ -3,57 +3,53 @@
 
 <head>
     <title>Gonçalo Vieira | Portfólio</title>
-    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/4208/4208483.png">
-
+    <link rel="icon" type="image/x-icon"
+        href="https://static.vecteezy.com/system/resources/previews/039/229/960/non_2x/ai-generated-g-logo-g-alphabet-bold-color-free-png.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        
+    <script src="main.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <div class="container">
-            <div class="navbar">
-                <a href="index.html">
-                    <img src="Captura_de_ecrã_2025-01-15__às_20.35.11-removebg-preview.png" alt="logo" width="60">
-                </a>
-                <nav>
-                    <a href="sobre.html">Sobre</a>
-                    <a href="educacao.html">Educação</a>
-                    <a href="contacto.html">Contacto</a>
-                </nav>
-            </div>
+            <div id="navbar"></div>
         </div>
     </header>
 
     <main class="container">
         <section id="contacto"></section>
         <h1>Contacto</h1>
-        <form>
-            <input type="text" class="input" id="pnome" name="pnome" placeholder="Primeiro nome"><br>
-            <input type="text" class="input" id="unome" name="unome" placeholder="Ultimo nome"><br>
-            <input type="text" class="input" id="email" name="email" placeholder="Email"><br>
-            <input type="text" class="input" id="assunto" name="assunto" placeholder="Assunto"><br><br>
-            <label for="cars">Linguagem de programação em questao:</label><br>
-            <select name="linguagens" id="linguagens" class="input">
-                <option value="c">C</option>
-                <option value="html">HTML</option>
-                <option value="html">SQL</option>
-                <option value="varias">Várias</option>
-            </select>
+        <div class="contacto">
+            <form>
+                <input type="text" class="input" id="pnome" name="pnome" placeholder="Primeiro nome"><br>
+                <input type="text" class="input" id="unome" name="unome" placeholder="Ultimo nome"><br>
+                <input type="text" class="input" id="email" name="email" placeholder="Email"><br>
+                <input type="text" class="input" id="assunto" name="assunto" placeholder="Assunto"><br><br>
+                <label for="cars">Linguagem de programação em questao:</label><br>
+                <select name="linguagens" id="linguagens" class="input">
+                    <option value="c">C</option>
+                    <option value="html">HTML</option>
+                    <option value="html">SQL</option>
+                    <option value="varias">Várias</option>
+                </select>
 
-            <br>
-            <textarea name="comment" form="usrform" placeholder="Escreva a sua mensagem" style="margin-top:20px"
-                class="comentario"></textarea><br>
+                <br>
+                <textarea name="comment" form="usrform" placeholder="Escreva a sua mensagem" style="margin-top:20px"
+                    class="comentario"></textarea><br>
 
-            <button type="reset" class="botaoform">Limpar</button>
-            <button type="submit" class="botaoform">Enviar</button>
-        </form>
+                <button type="reset" class="botaoform">Limpar</button>
+                <button type="submit" class="botaoform">Enviar</button>
+            </form>
+        </div>
 
 
-        <a href="mailto:goncalo_vieira@eticalgarve.com">goncalo_vieira@eticalgarve.com</a>
 
-        <a href="https://www.instagram.com/etic_algarve/"><img
-                src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="instagram"
-                style="width:42px;height:42px;"></a>
 
 
         </section>
@@ -74,6 +70,14 @@
                     </a>
                     <a href="https://stackoverflow.com/" target="_blank" aria-label="Stack Overflow">
                         <img src="https://cdn-icons-png.flaticon.com/512/2111/2111628.png" alt="Stack Overflow"
+                            class="icon">
+                    </a>
+                    <a href="https://instagram.com/" target="_blank" aria-label="Instagram">
+                        <img src="https://cdn-icons-png.flaticon.com/128/3661/3661391.png" alt="Instagram"
+                            class="icon">
+                    </a>
+                    <a href="https://discord.com/" target="_blank" aria-label="Whatsapp">
+                        <img src="https://cdn-icons-png.flaticon.com/128/2111/2111774.png" alt="Whatsapp"
                             class="icon">
                     </a>
                 </div>
