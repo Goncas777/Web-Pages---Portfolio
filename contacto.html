@@ -28,10 +28,10 @@
         <section id="contacto"></section>
         <h1>Contacto</h1>
         <div class="contacto">
-            <form>
+            <form id="form">
                 <input type="text" class="input" id="pnome" name="pnome" placeholder="Primeiro nome"><br>
                 <input type="text" class="input" id="unome" name="unome" placeholder="Ultimo nome"><br>
-                <input type="text" class="input" id="email" name="email" placeholder="Email"><br>
+                <input type="email" class="input" id="email" name="email" placeholder="Email"><br>
                 <input type="text" class="input" id="assunto" name="assunto" placeholder="Assunto"><br><br>
                 <label for="cars">Linguagem de programação em questao:</label><br>
                 <select name="linguagens" id="linguagens" class="input">
@@ -42,11 +42,12 @@
                 </select>
 
                 <br>
-                <textarea name="comment" form="usrform" placeholder="Escreva a sua mensagem" style="margin-top:20px"
+                <textarea name="comment" id="comment" form="usrform" placeholder="Escreva a sua mensagem" style="margin-top:20px"
                     class="comentario"></textarea><br>
 
                 <button type="reset" class="botaoform">Limpar</button>
                 <button type="submit" class="botaoform">Enviar</button>
+                <p id="erro" style="color: red;"></p>
             </form>
         </div>
 

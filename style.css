@@ -335,7 +335,7 @@ footer p {
     }
 
     .contacto {
-        height: 600px;
+        height: 475px;
     }
 
  
@@ -376,6 +376,7 @@ footer p {
     footer {
         padding: 10px 0;
         font-size: 14px;
+        margin-top: 50px;
     }
 
     .social-icons {

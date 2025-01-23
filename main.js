@@ -14,3 +14,31 @@ async function loadNavbar() {
   
   loadFooter();
   loadNavbar();
+
+
+const formulario = document.getElementById("form"); 
+const erro = document.getElementById("erro");
+
+formulario.addEventListener("submit", (evento) => {
+  const pnome = document.getElementById("pnome").value;
+  const unome = document.getElementById("unome").value;
+  const email = document.getElementById("email").value;
+  const assunto = document.getElementById("assunto").value;
+  const comment = document.getElementById("comment").value;
+
+  erro.innerText = "";
+
+if (!pnome.trim() || !unome.trim() || !assunto.trim() || !comment.trim()) {
+  evento.preventDefault();
+  erro.innerText = "O preenchimento de todos os campos é obrigatório.";
+} else if(!email.includes ("@")){
+  evento.preventDefault();
+  erro.innerText = "O email requer '@'";
+}
+ else if(!email.includes (".")){
+  evento.preventDefault();
+  erro.innerText = "O email requer '.'";
+}
+
+
+});
