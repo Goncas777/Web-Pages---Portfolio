@@ -49,7 +49,7 @@ main {
 }
 
 .home-button {
-    width: 7%;
+    width: 60px;
 }
 
 .container {
@@ -80,7 +80,7 @@ main {
 }
 
 #imageminicial {
-    height: 550px;
+    width: 750px;
     border-radius: 50px;
 }
 
@@ -98,6 +98,7 @@ main {
     background-color: #ccc;
     box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
     transition: 300ms ease-in-out;
+
 }
 
 .input:focus {
@@ -259,6 +260,7 @@ footer p {
     padding: 20px;
     border: 2px solid white;
     border-radius: 10px;
+
 }
 
 .containersobre {
@@ -271,3 +273,136 @@ footer p {
     width: 60%;
     justify-content: center;
 }
+
+
+
+@media(max-width: 1400px) {
+    .container{
+        max-width: 900px;
+    }
+
+    #imageminicial {
+        width: 450px;
+
+    }
+}
+
+@media(max-width: 1000px) {
+    .container{
+        max-width: 800px;
+    }
+}
+
+@media(max-width: 880px) {
+    .container{
+        max-width: 720px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+
+    .navbar {
+
+        gap: 10px;
+    }
+
+    main {
+        min-height: calc(100vh - 84px);
+    }
+
+
+    .navbar nav {
+        font-size: 18px;
+        gap: 18px;
+    }
+
+    .home-button {
+        width: 50px;
+    }
+
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 0 20px;
+        color: white;
+    
+    }
+
+    .contacto {
+        height: 600px;
+    }
+
+ 
+
+    .welcome {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .textoinicial {
+        font-size: 16px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #imageminicial {
+        width: 450px;
+        border-radius: 20px;
+    }
+
+    .containersobre {
+        display: flex;
+        flex-direction: column;
+
+        gap: 30px;
+    }
+
+    .containersobre>div {
+        width: 100%;
+    }
+
+    footer {
+        padding: 10px 0;
+        font-size: 14px;
+    }
+
+    .social-icons {
+        gap: 12px;
+    }
+
+    .sobre2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+@media (max-width: 450px) {
+    #imageminicial {
+        width: 300px;
+    }
+
+    
+    .contacto{
+        height: 500px;
+        margin-bottom: 50px;
+    }
+
+    
+}
+
+
