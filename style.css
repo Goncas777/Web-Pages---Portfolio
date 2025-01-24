@@ -403,7 +403,14 @@ footer p {
         margin-bottom: 50px;
     }
 
-    
+    .container{
+        max-width: 370px;
+    }
+
+ 
+    body {
+        max-width: 90vw;
+    }
 }
 
 

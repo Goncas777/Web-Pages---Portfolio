@@ -18,6 +18,7 @@ async function loadNavbar() {
 
 const formulario = document.getElementById("form"); 
 const erro = document.getElementById("erro");
+const erroemail = document.getElementById("erroemail");
 
 formulario.addEventListener("submit", (evento) => {
   const pnome = document.getElementById("pnome").value;
@@ -33,11 +34,11 @@ if (!pnome.trim() || !unome.trim() || !assunto.trim() || !comment.trim()) {
   erro.innerText = "O preenchimento de todos os campos é obrigatório.";
 } else if(!email.includes ("@")){
   evento.preventDefault();
-  erro.innerText = "O email requer '@'";
+  erroemail.innerText = "O email requer '@'";
 }
  else if(!email.includes (".")){
   evento.preventDefault();
-  erro.innerText = "O email requer '.'";
+  erroemail.innerText = "O email requer '.'";
 }
 
 
